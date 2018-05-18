@@ -1,0 +1,50 @@
+﻿游戏整体风格调整 ,加入背景
+直升机被击中后会向前坠落一段
+直升机多种坠落行为
+
+直升机加上最大投掷数量=
+跳伞的高度概率
+
+直升机有生命值的,不同武器伤害不同 
+panel 类
+
+
+游戏开始画面
+背景设计
+昼夜交替
+关卡开始人物对话
+
+可能问题
+  模型替换以后碰撞检测
+
+
+
+guntower后坐力
+3dtext shader
+计算带rotate的碰撞
+五星扫光 用多材质实现被告知性能问题
+path 现在不是很智能
+在空中降到一定高度,降落伞毁坏小人不会摔死
+nearTower 姿势调整,手不要伸着么高
+第二种飞机 投弹飞行器
+打中小人直接坠落
+
+
+init  
+	initDimension
+	initMesh
+	these two method calculate the collide box 
+
+BeforeInit   
+	for situation that we need mirror a obj ,for now we must rotate obj Y 180 degree first then init Mesh And Dimension 
+
+
+类命名规则
+m 成员 真正的成员有实体
+p 属性
+r 引用的类外物体
+
+路径跟随 pathfollow
+
+
+action 可以定义一组方法一起执行,且可以随时移除某一方法

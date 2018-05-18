@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 5b21ce315d1c4bf48bdb8ac623546569
+timeCreated: 1488420411
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: swfit_slm_fw
+  fontNames:
+  - swfit_slm_fw
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
